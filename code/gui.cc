@@ -13,18 +13,18 @@ using namespace std;
 
 // ces lignes encadrées par l'option de compilation sont nécessaires pour GTKmm 3.
 
-//#define GTK_COMPATIBILITY_MODE
+#define GTK_COMPATIBILITY_MODE
 
-//#ifdef GTK_COMPATIBILITY_MODE
-//namespace Gtk
-//{
-  //template<class T, class... T_Args>
-  //auto make_managed(T_Args&&... args) -> T*
-  //{
-    //return manage(new T(std::forward<T_Args>(args)...));
-  //}
-//}
-//#endif
+#ifdef GTK_COMPATIBILITY_MODE
+namespace Gtk
+{
+  template<class T, class... T_Args>
+  auto make_managed(T_Args&&... args) -> T*
+  {
+    return manage(new T(std::forward<T_Args>(args)...));
+  }
+}
+#endif
 
 // ==============================================================================
 // cette constante et le modèle de struct qui suit simulent les données que pourrait
