@@ -1,7 +1,9 @@
-# Planet-Donut
-Repository containing the code and information about project Planet Donut
+## Planet-Donut
 
-In the Planet Donut, I worked in collaboration with another classmate on developing and implementing various algorithms to control robots in a simulated environment for tasks such as exploration, resource extraction, and communication network establishment.
+For the project Planet Donut, I worked in collaboration with another classmate on developing and implementing various algorithms to control robots in a simulated environment for tasks such as exploration, resource extraction, and communication network establishment.
+
+Example of output:
+<img width="610" alt="Screenshot 2024-04-01 at 01 35 46" src="https://github.com/mehdi533/Planet-Donut/assets/113531778/a3116e35-6ef5-4fd9-a30d-a6a9342bdff4">
 
 1. **Connection Algorithm**: Involved using a depth-first search algorithm starting from a communication robot at the base center, traversing through its neighbors and their neighbors sequentially until all have been marked as connected in a vector of robots within the base.
 
@@ -14,10 +16,3 @@ In the Planet Donut, I worked in collaboration with another classmate on develop
 5. **Communication Algorithm**: The strategy involves deploying a network of 49 communication robots to cover the entire planet, arranged in 7 lines of 7 robots, each approximately 286 km apart. These robots, once deployed, remain stationary, negating the need for maintenance due to their limited movement range compared to their maximum travel distance.
 
 The approach is designed to be robust, prioritizing the rapid collection of information and resources while minimizing unnecessary robot production. This method allows for efficient exploration and resource extraction, contributing to the base's autonomy.
-
-The project also faced challenges, particularly in managing state retention across sessions due to improper variable scope handling, which was later corrected by adjusting the variable's accessibility and scope.
-
-In conclusion, the project successfully implemented a graphical interface and operational strategy for managing robotic tasks in a simulated environment, with a recognition that while the strategy is effective, there is potential for further optimization.
-
-Example of use:
-<img width="610" alt="Screenshot 2024-04-01 at 01 35 46" src="https://github.com/mehdi533/Planet-Donut/assets/113531778/a3116e35-6ef5-4fd9-a30d-a6a9342bdff4">
