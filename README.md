@@ -18,7 +18,7 @@ Example of output:
 
 The approach is designed to be robust, prioritizing the rapid collection of information and resources while minimizing unnecessary robot production. This method allows for efficient exploration and resource extraction, contributing to the base's autonomy.
 
-Here is the report <u>in French<\u>
+Here is the report <ins>in French</ins>:
 
 **Description des Algorithmes**
 
