@@ -1,6 +1,6 @@
 ## Planet-Donut
 
-For the project Planet Donut, I worked in collaboration with another classmate on developing and implementing various algorithms to control robots in a simulated environment for tasks such as exploration, resource extraction, and communication network establishment.
+For the project Planet Donut, I worked on developing and implementing various algorithms to control robots in a simulated environment for tasks such as exploration, resource extraction, and communication network establishment.
 
 Example of output:
 
